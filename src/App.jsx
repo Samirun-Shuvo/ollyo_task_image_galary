@@ -1,5 +1,4 @@
 import "./App.css";
-// import ImageGallery from "./components/Sections/ImageGallery";
 import ImageGallery from "./components/ImageGallery";
 
 function App() {

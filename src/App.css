@@ -9,6 +9,7 @@
   @apply bg-white rounded-t-lg px-4 md:px-8 py-5 border-b border-[#ebebed] flex justify-between items-center flex-wrap gap-6 min-h-[70px] shadow;
 }
 /* header end */
+
 /* image body start */
 .image_body_container {
   @apply bg-white rounded-b-lg px-4 md:px-8 py-14 shadow;
@@ -29,16 +30,15 @@
   @apply w-full h-full absolute top-0 left-0 z-20;
 }
 .selected_image {
-  @apply bg-[#f8f9f9] bg-opacity-70;
+  @apply bg-[#f8f9f9] bg-opacity-90;
 }
-
 .hover_image {
   @apply bg-[#828282] bg-opacity-50;
 }
 /* image body end */
+
 /* add image card start */
 .add_image_card {
   @apply image_card border-2 border-dashed border-[#d8dadc] rounded-md overflow-hidden relative top-0 left-0 shadow-sm cursor-pointer min-h-[270px] md:min-h-[327px] lg:min-h-[241px] flex justify-center items-center flex-col gap-3;
 }
-
 /* add image card end */

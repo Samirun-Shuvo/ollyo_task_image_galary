@@ -1,8 +1,6 @@
 import { useState } from "react";
-// import CheckBox from "../Forms/CheckBox";
 import CheckBox from "../components/CheckBox";
 import { useDispatch } from "react-redux";
-// import { selectImage, setDragId, setDropId } from "../../../redux/ImageGallarySlice/imageGallerySlice";
 import { selectImage, setDragId, setDropId } from "../redux/ImageGallarySlice/imageGallerySlice";
 
 

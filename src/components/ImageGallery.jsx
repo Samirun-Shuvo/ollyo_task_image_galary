@@ -1,10 +1,6 @@
-// import { useDispatch, useSelector } from "react-redux";
-// import CheckBox from "../Elements/Forms/CheckBox";
-// import ImageCardComponent from "../Elements/ImageCard/ImageCardComponent";
 import { useDispatch, useSelector } from "react-redux";
 import CheckBox from "../components/CheckBox";
 import ImageCardComponent from "../components/ImageCardComponent";
-// import { deleteImage, resetSelectImage } from "../../redux/ImageGallarySlice/imageGallerySlice";
 import { deleteImage, resetSelectImage } from "../redux/ImageGallarySlice/imageGallerySlice";
 
 export default function ImageGallery() {
